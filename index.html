@@ -2,6 +2,9 @@
 <html>
 <head>
 	<title>My Website</title>
+	
+	<!-- Add CSS stylesheet for styling -->
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
@@ -12,14 +15,27 @@
 		<ul>
 			<li><a href="#">Home</a></li>
 			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Research</a></li>
+			<li><a href="#">Publications</a></li>
 		</ul>
 	</nav>
 	
-	<main>
-		<h2>About Me</h2>
-		<p>I am a web developer with a passion for creating awesome websites.</p>
-	</main>
+	<div class="container">
+		<main>
+			<h2>About Me</h2>
+			<p>I am a web developer with a passion for creating awesome websites.</p>
+		</main>
+		
+		<aside>
+			<h3>Recent Posts</h3>
+			<ul>
+				<li><a href="#">Post 1</a></li>
+				<li><a href="#">Post 2</a></li>
+				<li><a href="#">Post 3</a></li>
+			</ul>
+		</aside>
+	</div>
 	
 	<footer>
 		<p>&copy; 2023 My Website. All rights reserved.</p>
